@@ -1,0 +1,54 @@
+Algoritmo "socorro"
+
+Var
+a, c, contador, i, j, cont, f:inteiro
+b:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+contador <- 0
+escreval("Digite o número: ")
+leia(a)
+i <- 1
+cont <- 0
+j <- 1
+escreval("primos gêmeos: ")
+      repita
+//testando se é primo com i + 1
+               enquanto i <= (a - 2) faca
+                        i <- i + 1
+                         b <- a%i
+                          //escreval("a: ",a)
+                          //escreval("i: ",i)
+                se b = 0 entao
+                        contador <- contador + 1
+                     fimse
+                fimenquanto
+                //escreval("contador: ", contador)
+        se contador = 0 entao
+           cont <- 0
+
+               f <- (a - 2)
+               j <- 2
+               enquanto j <= f - 1 faca
+               c <- f%j
+               j <- j + 1
+               //escreval("f: ",f)
+               //escreval("j: ",j)
+               se c = 0 entao
+               cont <- cont + 1
+               fimse
+               fimenquanto
+               se cont = 0 entao
+               escreval("(",a, f," )")
+               fimse
+               fimse
+               //cont <- 0
+
+        contador <- 0
+        a <- a - 1
+        //escreva (a," ")
+        i <- 1
+        //escreva(i," ")
+        ate a = 4
+Fimalgoritmo
