@@ -67,8 +67,8 @@ meio = Fraction(1, 2)
 
 
 #Algoritmo peso ideal
-sexo = input("Sexo: (masculino/feminino)")
-altura = float(input("Altura (em metros):"))
+#sexo = input("Sexo: (masculino/feminino)")
+#altura = float(input("Altura (em metros):"))
 
 
 #//o que deve ser realizado atrelado a uma função
