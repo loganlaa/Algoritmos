@@ -72,28 +72,28 @@ altura = float(input("Altura (em metros):"))
 
 
 #//o que deve ser realizado atrelado a uma função
-def masculino():
-    peso = (72.7 * altura) - 58
-    print("Peso ideal é:", peso)
+#def masculino():
+#    peso = (72.7 * altura) - 58
+#    print("Peso ideal é:", peso)
     
-def feminino():
-    peso = (62.1 * altura) - 44.7
-    print(peso)
+#def feminino():
+#    peso = (62.1 * altura) - 44.7
+#    print(peso)
     
-def outrocaso():
-    print("Sexo inválido")
+#def outrocaso():
+#    print("Sexo inválido")
     
 #atrela as funções às possíveis respostas corretas (CRIA O DICIONÁRIO)
-sexo_funcoes = {
-        "masculino": masculino,
-        "feminino": feminino
+#sexo_funcoes = {
+#        "masculino": masculino,
+ #       "feminino": feminino
 }
  #//define o "Caso contrário"   
-def switch_case(sexo):    #DEFINE A FUNÇÃO SWITCH_CASE ATRELADA À VARIÁVEL SEXOO
-        sexo_funcoes.get(sexo, outrocaso)()       #Pega o valor de sexo via .get() do dicionário.... Se o valor do sexo existir no dicionário, ele retorna a função indicada no dicionário; se não existir, ele executa a função outrocaso()
+#def switch_case(sexo):    #DEFINE A FUNÇÃO SWITCH_CASE ATRELADA À VARIÁVEL SEXOO
+#        sexo_funcoes.get(sexo, outrocaso)()       #Pega o valor de sexo via .get() do dicionário.... Se o valor do sexo existir no dicionário, ele retorna a função indicada no dicionário; se não existir, ele executa a função outrocaso()
         
 #//executa o switch_case do sexo        
-switch_case(sexo)
+#switch_case(sexo)
 
 
 
